@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c39c54c9-d03b-46e3-b87d-8022a1883728" name="Default Changelist" comment="" />
+    <list default="true" id="c39c54c9-d03b-46e3-b87d-8022a1883728" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/src/main/java/Home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gmail/src/main/java/Home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/src/test/java/home/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gmail/src/test/java/home/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/target/classes/Home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gmail/target/classes/Home/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gmail/target/test-classes/home/HomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gmail/target/test-classes/home/HomeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Wh1T4dPyV0fzovucyf9dJ6pt0u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,10 +49,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/java/driver" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +64,7 @@
       <recent name="C:\Users\samin\IdeaProjects\SeleniumAssignment\Generic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.testUserCanLoginSuccessfully">
+  <component name="RunManager" selected="TestNG.HomeTest.testUserCanCheckInbox">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Gmail" />
       <extension name="coverage">
@@ -56,6 +76,24 @@
       <option name="PACKAGE_NAME" value="home" />
       <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testUserCanCheckInbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Gmail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="METHOD_NAME" value="testUserCanCheckInbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -80,9 +118,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeTest.testUserCheckInbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Gmail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="METHOD_NAME" value="testUserCheckInbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.testUserCanCheckInbox" />
         <item itemvalue="TestNG.HomeTest.testUserCanLoginSuccessfully" />
+        <item itemvalue="TestNG.HomeTest.testUserCheckInbox" />
         <item itemvalue="TestNG.HomeTest" />
       </list>
     </recent_temporary>
@@ -113,22 +171,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1579635799513">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1579658822415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579635799513" />
-    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1579635799512">
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579658822415" />
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1579712746271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579635799512" />
-    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1579635799512">
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579712746271" />
+    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1579712746271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579635799512" />
-    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1579635799513">
+    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579712746271" />
+    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1579712746271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579635799512" />
+    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579712746271" />
+    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1579712746271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579712746271" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1579590297718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,9 +199,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579615324743" />
-    <state x="65" y="59" key="new project wizard" timestamp="1579615784340">
+    <state x="65" y="59" key="new project wizard" timestamp="1579646548169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1579615784340" />
+    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1579646548169" />
   </component>
 </project>
