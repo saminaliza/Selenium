@@ -19,5 +19,14 @@ public class HomeTest extends CommonAPI {
         hp1.logIn("myautotestmail2020@gmail.com", "test2055");
         hp1.checkInbox();
     }
+
+    @Test
+    public void testUserCanCheckSentMail() {
+        driver.get("https://www.google.com/gmail");
+        HomePage hp2 = new HomePage();
+        hp2.logIn("myautotestmail2020@gmail.com", "test2055");
+        hp2.checkSentMail();
+
+    }
 }
 

@@ -17,4 +17,8 @@ public class HomePage extends CommonAPI {
     public void checkInbox() {
         driver.findElement(By.cssSelector(".Inbox")).click();
     }
+
+    public void checkSentMail() {
+        driver.findElement(By.xpath("//*[@id=\":3z\"]/div/div[2]/span/a")).click();
+    }
 }
